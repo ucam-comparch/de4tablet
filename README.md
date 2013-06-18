@@ -9,6 +9,9 @@ This is the mechanical design - what you put on the FPGA is up to you!
 We hope to open source more of the components we use on our boards in
 future.
 
+![The DE4 tablet booting](http://www.cl.cam.ac.uk/research/comparch/opensource/de4tablet/tablet-booting-cheri.jpg)
+![The FPGA side](http://www.cl.cam.ac.uk/research/comparch/opensource/de4tablet/tablet-fpga.jpg)
+
 To build the Tablet you will need:
 
 [A DE4 FPGA board](http://de4.terasic.com.tw) (we used the SGX230 version)  

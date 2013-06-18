@@ -1,0 +1,12 @@
+,,,,,,,,
+User part no,Supplier,Supplier part no,Qty to order,Description,Mfr/Part,Unit price exc breaks,Total price,Notes
+,,,,,,,,
+,Terasic,DE4,1,DE4 FPGA board (Altera Stratix IV),,,,
+,Terasic,MTL-LCD,1,Multi-touch LCD Module (MTL),,,,
+,Farnell,1419292,1,M3 10mm bolt panhead pk100,"DURATOOL - M310 PSSTMCZ100- - SCREW, SLT, PAN, STEEL, BZP, M3X10",1.46,1.46,
+,Farnell,1419291,1,M3 6mm bolt panhead pk100,"DURATOOL SCREW, SLT, PAN, STEEL, BZP, M3X6",1.46,1.46,
+30mm pillar,Farnell,1466827,8," SPACER, M3X30-NI",ETTINGER - 05.13.303,0.161,1.288,
+,Steatite,PicoPSU-90,4,90W ATX power supply adaptor,PicoPSU-90,24.08,96.32,
+,Farnell,1466845,4,M3 12mm pillar,"ETTINGER - 05.13.123 - SPACER, M3X12-NI",0.148,0.592,
+,Steatite,ICP-60W-BRICK-SET,4,60W AC-12V adaptor 2.5mm plug,,12.92,51.68,
+,,,6,Nylon M3 screws 6mm,,,,

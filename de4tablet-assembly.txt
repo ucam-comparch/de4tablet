@@ -1,0 +1,119 @@
+These assembly instructions can also be found at:
+http://www.instructables.com/id/DE4-FPGA-tablet/
+
+1. Laser cut your parts.  You need several types of acrylic:
+1mm clear (for the battery cover)
+2mm clear (for the PCIe protector)
+3mm blue (for the baseplate)
+4mm clear (for top plate, bezel and supports)
+
+2. Start with the blue baseplate.
+Attach 5x 5mm M3 M-F pillars using M3x6 screws, to match up with the inner
+holes on the DE4
+
+3. In the corners, attach 4x 5mm M3 M-F pillars in the same way, but using
+4x 12mm M3 M-Fpillars on the other side.
+
+4. Remove the back acrylic plate from the display, leaving the bare PCB
+attached with the original 6x M3 pillars.  Place this underneath the
+baseplate.
+
+5. Align the screen pillars with the baseplate and screw in with 6x M3 6mm
+nylon screws.  Nylon screws are used here to avoid shorting out on the DE4
+if the plastic flexes.
+
+6. Make up or buy a 40 way IDC cable that's 12cm long.  Don't make it longer
+than this (it picks up interference from the display), and you don't need to
+use an 80 way IDE cable as the screen is supplied with.  Make slits between
+conductors to make the ribbon more flexible.
+
+7. Fit one end of the ribbon to the display through the hole in the
+backplate
+
+8. Slot on the DE4.  A small amount of adjustment of pillars may be
+required.
+
+9. Take the PCIe protector (2mm acrylic L-shaped piece).  Place two washers
+on the pillars then slot the protector over the holes to cover the PCIe
+connector.
+
+10. Screw on M3 F-F pillars of different lengths:
+B 13mm/14
+A 9mm/11mm
+G and G2 30mm (x5)
+J 13mm
+C 11mm/12
+If you can't buy these pillars, you can buy the nearest size and add
+unthreaded spacers to extend them.  The exact pillar length may depend on
+the tolerances of your acrylic (which can vary widely) so you may need to
+adjust them slightly.
+
+11. Take the HDMI TX board and its base plate (4mm acrylic)
+Make sure the base plate is earthed so it holds no static charge, then screw
+the base to the HDMI board with 2x 8mm M3 screws and M3 nuts
+
+12. Attach the HSMC extender to the HSMC socket on the DE4 nearest the
+ethernet ports.  You may need to adjust the pillar height supporting it -
+the idea is that it's very close but not touching the pillars, so that the
+connector is bearing most of the weight.  Slip in a 1 or 2mm spacer in here
+is necessary to support it.
+
+13. Fit the HDMI board to the extender.  You may have to adjust the height
+of pillars B and C to fit.  Ideally it should be spaced so that the bolt
+heads on the underside of the HDMI board almost but not quite touch the top
+of the ethernet sockets.
+
+14. Take a PicoPSU and disconnect all the optional cables.  Take the
+mounting plate and thread the power input cable through the larger of the
+square holes.  Cable tie the PicoPSU in place - the lock on the tie must be
+on the opposite side of the mounting plate from the PSU.
+
+15. Attach the DE4 power adaptor cable to the PicoPSU.  May take a little
+adjustment of the pins to make it fit (the PicoPSU connector tends to curve
+a little).  Cut off the end of the cable tie.
+
+16. Take the lid and the battery cover.  Attach the battery cover to the lid
+with 5x M3 30mm screws and nuts and washers on the reverse.  Also use 3x M3
+8mm screws with nuts and washers on the lower three holes.
+
+17. Fit the battery into the slot in the lid, cover it with the battery
+support, and screw on with nyloc screws (careful not to tighten too much).
+There are dimples on the bottom of the battery which align with holes in the
+battery support.
+
+18. Screw the PSU support into the lid using 4x M3 25mm screws and nyloc
+nuts (again, don't overtighten).  It doesn't sit parallel to the lid, so
+don't worry if it isn't flat.
+
+19. Cut off the input socket to the PicoPSU and replace with a 1.3mm DC
+power plug and a switch interrupting the positive rail.
+
+20. Remove all nuts and washers from the switch.  There are two side pieces
+a middle piece and a top piece that hold the switch in place - you may find
+that another pair of side pieces is more convenient than the top piece. 
+The square top piece holds everything together, and are screwed on with 4x
+M3 20mm screws and nuts.
+
+21. Plug in the ATX power cable into the DE4.
+
+22. Place the lid on top of the DE4, making sure all cables are arranged and
+don't snag on the fan.
+
+23. Lightly attach the lid at the battery end with 4x M3 12mm screws
+
+24. Now add unthreaded spacers to the four screws around the HDMI board so it's
+supported correctly.  As this depends on the tolerance of the acrylic, you
+may have to adjust it slightly.  Here's what I used:
+A: 1mm + 2mm + 7mm
+J: 1mm + 7mm
+c: 2mm + 8mm
+B: 2mm + 8mm (this requires thin-walled spacers - omit if you don't have any)
+Screw these stacks together with M3 25mm screws.
+
+26. Tighten all the lid screws and make sure it sits flat.
+
+27. Fit the MTL-LCD adaptor and plug in the screen ribbon cable.
+
+28. Fit the bezel around the display and screw on with 4x M3 8mm screws
+
+29. You're done!
